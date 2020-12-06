@@ -1,4 +1,4 @@
-This lexer programmed and developed by Saeed Shirazi for class project at January 19, 2020
+Lexical analyser that developed in Python programming language by Saeed Shirazi at January 19, 2020
 
 Programming language : PYTHON-V3.7.5
 
