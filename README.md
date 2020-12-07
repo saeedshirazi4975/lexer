@@ -9,7 +9,7 @@ Updated programming language to the PYTHON-V3.8.6 at December 6, 2020
 
 How to use:
     
-    * Make sure you have installed PYTHON-V3.8.6
+    * Make sure you have installed 'PYTHON-V3.8.6' and 'virtualenv'
 
     1) Configure virtual enviroment :
 
