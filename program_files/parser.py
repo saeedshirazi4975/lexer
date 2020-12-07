@@ -4,13 +4,15 @@ from .lexer import lexer
 
 LETT = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
-OPT = ['+', '-', '*', '/', '%', '^', '=', '<', '>']
+OPT = '+-*/%^=<>'
 
-DLIM = '(){}[];'
+DLIM = '(){}[];:'
 
 DIG = '0123456789'
 
 SPACE = ' '
+
+SYMBOLS = '@?&~,#$_.\'\"\\'
 
 #####-------------------------------------------------------------------------------------------------------------#####
 
@@ -45,9 +47,10 @@ def parser(tmp):
                     for i in lexer(lexeme):
                         yield i
                     lexeme = ''
+                
                 c = tmp.__next__()
 
-            elif (c == '@') or (c == '?') or (c == '&') or (c == '~') or (c == ',') or (c == ',') or (c == '#') or (c == '$') or (c == '.') or (c in LETT) or (c in DIG):
+            elif (c in SYMBOLS) or (c in LETT) or (c in DIG):
                 lexeme += c
                 c = tmp.__next__()
 
