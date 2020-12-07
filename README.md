@@ -19,11 +19,11 @@ How to use:
 
         in Windows : 
             
-            in terminal:     'venv/scripts/activate.bat'
+            in terminal:     'venv\scripts\activate.bat'
         
         in Linux : 
             
-            in terminal:     'source venv\bin\activate'
+            in terminal:     'source venv/bin/activate'
     
     3) Run Program :
 
