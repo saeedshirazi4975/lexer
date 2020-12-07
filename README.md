@@ -27,6 +27,6 @@ How to use:
     
     3) Run Program :
 
-        in terminal: 'python run.py'
+        in terminal:         'python run.py'
     
     4) Enter your input
